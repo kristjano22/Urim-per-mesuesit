@@ -1,0 +1,33 @@
+import streamlit st
+st.set_page_config(page_title="kartoline per 7 Mars")
+st.subheader("Nje kartoline per ty")
+urim_per_mesuesit={
+    "Xheni":"Ju falenderojme per dijet qe na jepni ne teknologji.",
+    "Yllka"::"Ju falenderojme per dijet qe na jepni ne biologji.",
+    "Gladiola":"Ju falenderojme per dijet qe na jepni ne anglisht.",
+    "Rexhina":"Ju falenderojme per dijet qe na jepni ne fizik.",
+    "Luiza":"Ju falenderojme per dijet qe na jepni ne matematike.",
+}
+
+emri=st.text_input("Vendosni emrin tuaj: ")
+if st.button("Shfaq urimin💐"):
+    if not emri:
+        st.warning("Ju lutem plotesoni emrin tuaj")
+        elif emri not in urim_per_mesuesit:
+            st.error("Ky mesues nuk punon ne shkollen 22 Tetori
+        else:
+            urimi_personal=urim_per_mesuesit[emri]
+            st.markdown(f"""
+            text-align:center;
+            background: linear-gradient(135deg,#d4edda, #e6f7e6;
+            padding:20px;
+            border-radius:20px;
+            border:3px solid #28a745;
+            font-size:20px;
+            box-shadow:0 6px 15px rgba(0,0,0,0.15);">
+            
+            <h4> GËZUAR FESTËN! </h4>  <br>
+            <p> {urimi personal} </p> <br>  
+            <p> Me dashuri nga Klubi i Kodimit </p>
+            </div>
+            """,unsafe_allow_html=True)
