@@ -1,4 +1,4 @@
-import streamlit st
+import streamlit as st
 st.set_page_config(page_title="kartoline per 7 Mars")
 st.subheader("Nje kartoline per ty")
 urim_per_mesuesit={
@@ -32,3 +32,4 @@ if st.button("Shfaq urimin💐"):
             </div>
 
             """,unsafe_allow_html=True)
+
