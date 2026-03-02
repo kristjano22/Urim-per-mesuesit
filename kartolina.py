@@ -14,7 +14,7 @@ if st.button("Shfaq urimin💐"):
     if not emri:
         st.warning("Ju lutem plotesoni emrin tuaj")
         elif emri not in urim_per_mesuesit:
-            st.error("Ky mesues nuk punon ne shkollen 22 Tetori
+            st.error("Ky mesues nuk punon ne shkollen 22 Tetori"
         else:
             urimi_personal=urim_per_mesuesit[emri]
             st.markdown(f"""
@@ -30,4 +30,5 @@ if st.button("Shfaq urimin💐"):
             <p> {urimi personal} </p> <br>  
             <p> Me dashuri nga Klubi i Kodimit </p>
             </div>
+
             """,unsafe_allow_html=True)
