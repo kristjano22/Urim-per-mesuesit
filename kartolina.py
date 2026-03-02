@@ -3,7 +3,7 @@ st.set_page_config(page_title="kartoline per 7 Mars")
 st.subheader("Nje kartoline per ty")
 urim_per_mesuesit={
     "Xheni":"Ju falenderojme per dijet qe na jepni ne teknologji.",
-    "Yllka"::"Ju falenderojme per dijet qe na jepni ne biologji.",
+    "Yllka":"Ju falenderojme per dijet qe na jepni ne biologji.",
     "Gladiola":"Ju falenderojme per dijet qe na jepni ne anglisht.",
     "Rexhina":"Ju falenderojme per dijet qe na jepni ne fizik.",
     "Luiza":"Ju falenderojme per dijet qe na jepni ne matematike.",
@@ -32,4 +32,5 @@ if st.button("Shfaq urimin💐"):
             </div>
 
             """,unsafe_allow_html=True)
+
 
